@@ -57,7 +57,7 @@
             liff.shareTargetPicker([
               {
                 "type": "flex",
-                "altText": "สนภ.1 นทพ.",
+                "altText": "นพค.45 สนภ.4 นทพ.",
                 "contents": 
 // -------ใส่ JSON ----------
 
@@ -70,12 +70,13 @@
     "contents": [
       {
         "type": "image",
-        "url": "https://sv1.img.in.th/i61jzD.png",
+        "url": "https://img2.pic.in.th/pic/-45c6b1ca61a92f91ac.jpg",
         "size": "full",
-        "aspectRatio": "1200:200",
+        "aspectRatio": "1400:200",
         "align": "center",
         "gravity": "center",
         "aspectMode": "cover",
+        "offsetTop": "none",
         "animated": true
       }
     ],
@@ -101,13 +102,13 @@
                     "type": "image",
                     "size": "full",
                     "aspectRatio": "16:10",
+                    "url": data.imagetitle,
                     "aspectMode": "cover",
                     "action": {
                       "type": "uri",
                       "label": "action",
                       "uri": data.imagetitle
-                    },
-                    "url": data.imagetitle
+                    }
                   }
                 ],
                 "width": "100%",
@@ -161,12 +162,12 @@
                         "align": "center",
                         "gravity": "center",
                         "aspectRatio": "16:9",
+                        "url": data.image1,
                         "action": {
                           "type": "uri",
                           "label": "action",
                           "uri": data.image1
-                        },
-                        "url": data.image1
+                        }
                       }
                     ],
                     "borderWidth": "none",
@@ -203,10 +204,10 @@
                     "contents": [
                       {
                         "type": "image",
-                        "url": data.image3,
                         "aspectMode": "cover",
                         "size": "full",
                         "aspectRatio": "16:9",
+                        "url": data.image3,
                         "action": {
                           "type": "uri",
                           "label": "action",
@@ -283,7 +284,7 @@
                 "contents": [
                   {
                     "type": "icon",
-                    "url": "https://img5.pic.in.th/file/secure-sv1/website.webp",
+                    "url": "https://j5pr.rtarf.mi.th/FlexMsg/PRD/images/Flex-%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%87%E0%B8%B2%E0%B8%99Influ/btsweb.png",
                     "size": "4xl",
                     "offsetTop": "xs",
                     "offsetEnd": "xl"
@@ -317,9 +318,10 @@
     "background": {
       "type": "linearGradient",
       "angle": "0deg",
-      "endColor": "#4db6ac",
-      "startColor": "#ffee58"
-    }
+      "startColor": "#E6E6FA",
+      "endColor": "#005a91"
+    },
+    "backgroundColor": "#B22222"
   },
   "body": {
     "type": "box",
@@ -331,32 +333,9 @@
         "contents": [
           {
             "type": "image",
-            "url": "https://j5pr.rtarf.mi.th/FlexMsg/PRD/images/Flex-PR%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B1%E0%B8%99/%E0%B8%9D%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B9%E0%B8%9B/Icon%20Flex%20Message%202024/read.png",
-            "size": "full",
-            "aspectRatio": "10:4",
-            "action": {
-              "type": "uri",
-              "label": "อ่านเพิ่มเติม",
-              "uri": data.newsfblink
-            }
-          }
-        ]
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [],
-        "width": "5%"
-      },
-      {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "image",
             "url": "https://j5pr.rtarf.mi.th/FlexMsg/PRD/images/Flex-PR%E0%B8%A3%E0%B8%B2%E0%B8%A2%E0%B8%A7%E0%B8%B1%E0%B8%99/%E0%B8%9D%E0%B8%B2%E0%B8%81%E0%B8%A3%E0%B8%B9%E0%B8%9B/Icon%20Flex%20Message%202024/share2.png",
             "size": "full",
-            "aspectRatio": "10:4",
+            "aspectRatio": "10:2",
             "action": {
               "type": "uri",
               "label": "คลิกเพื่อแชร์",
@@ -366,7 +345,7 @@
         ]
       }
     ],
-    "backgroundColor": "#26a69a",
+    "backgroundColor": "#E6E6FA",
     "offsetTop": "xs",
     "paddingTop": "1px",
     "paddingEnd": "lg",
@@ -378,9 +357,9 @@
     "contents": [
       {
         "type": "image",
-        "url": "https://sv1.img.in.th/i63Ink.png",
+        "url": "https://img2.pic.in.th/pic/634b9dd044bd06dc8c4e69b837ac0f6e.png",
         "size": "full",
-        "aspectRatio": "1200:100",
+        "aspectRatio": "160:18",
         "aspectMode": "cover"
       }
     ],
@@ -388,7 +367,7 @@
   },
   "styles": {
     "hero": {
-      "backgroundColor": "#d6ebf5"
+      "backgroundColor": "#B22222"
     },
     "body": {
       "backgroundColor": "#d6ebf5"
@@ -398,7 +377,6 @@
     }
   }
 }
-
                   
 
 // -------จบ JSON ----------
